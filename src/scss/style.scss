@@ -1,0 +1,23 @@
+@import "fonts";
+
+body {
+    font-family: RobotoSerif_28pt;
+    font-size: 2em;
+    background-color: rgb(28, 219, 143);
+    span{
+        color: rgb(207, 195, 181);
+    }
+    
+}
+
+@media (max-width: 768px){
+    span{
+        font-size: 29px;
+    }
+}
+
+@media (max-width: 768px){
+    body{
+        background-color: brown;
+    }
+}
