@@ -1,0 +1,26 @@
+@font-face {
+  font-family: RobotoSerif;
+  font-display: swap;
+  src: url("../fonts/RobotoSerif-Bold.woff2") format("woff2"), url("../fonts/RobotoSerif-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  font-family: RobotoSerif_28pt;
+  font-size: 2em;
+  background-color: rgb(28, 219, 143);
+}
+body span {
+  color: rgb(207, 195, 181);
+}
+
+@media (max-width: 768px) {
+  span {
+    font-size: 29px;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    background-color: brown;
+  }
+}
